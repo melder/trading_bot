@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.vscode
+.pylintrc
+*.png
+*.txt
+ivs_*.csv
+test.py
+TODO.md
+settings.yml
+vendors.yml
+ranges.sh
+extra/
+csv

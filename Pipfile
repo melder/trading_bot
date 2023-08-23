@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+redis-om = "*"
+gspread = "*"
+robin_stocks = "*"
+pytz = "*"
+numpy = "*"
+python-dateutil = "*"
+pytest = "*"
+pytest-mock = "*"
+pyyaml = "*"
+gnureadline = "*"
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+black = "*"
+
+[requires]
+python_version = "3.11.2"

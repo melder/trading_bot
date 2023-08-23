@@ -1,0 +1,20 @@
+version: alpha-3.1
+
+strangle:
+  max_bid: 1.0 # $100
+  roi_multiplier: 25.0 # percent
+  optimal_strike_multiplier: 40.0 # percent
+  strangle_eject_time_ratio: 0.5
+  weeklies_only: 1
+
+condor:
+  max_condors: 1
+  max_collateral: 2.0 # $200
+  min_credit_collateral_ratio: 70.0 # percent
+  min_credit_collateral_ratio_spy: 25.0 # percent
+  target_roi: 70.0 # percent
+  optimal_strike_multiplier_buy: 75.0 # percent
+  optimal_strike_multiplier_sell: 50.0 # percent
+  buy_slack: 4 # $0.04
+  sell_slack: 3 # $0.03
+  weeklies_only: 1

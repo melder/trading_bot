@@ -1,0 +1,16 @@
+hood:
+  login: melder@example.com
+  password: password
+  my2fa: ABCD
+  pickle_name: rick
+
+polygon:
+  api_key: abc-def
+
+redis:
+  host: localhost
+  port: 6379
+
+discord_webhooks:
+  logger_url: https://www.example.com
+  notifications_url: https://www.example.com
